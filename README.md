@@ -52,4 +52,4 @@
 29. vi hosts (paste and close)
 
 #### 7. CHECK CONNECTIVITY
-42. ansible all -m ping
+30. ansible all -m ping
