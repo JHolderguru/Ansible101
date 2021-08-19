@@ -38,7 +38,7 @@
 20. touch hosts
 21. cd (go back home)
 #### 6. ESTABLISH HOSTS WITH YOUR NODES
-23. ssh-keygen (enter enter)
+22. ssh-keygen (enter enter)
 23.cd .ssh/
 24.COPY THE public key to the remote servers.
 25.ssh-copy-id 12.234.54.345
