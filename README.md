@@ -1,7 +1,7 @@
 ## Setting up Ansible
 
 #### 1.Set up Vagrant.
-#### 2.Run an CentOs Installation.
+#### 2.Run n CentOs Installation.
 #### 3.1.	YUM WAY
 2.	Sudo su
 3.	yum install ansible (go to EPEL website on the repo )
