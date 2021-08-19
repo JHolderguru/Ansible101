@@ -11,7 +11,7 @@
 7.	–-python version
 8.	? not found
 9.	yum install python
-10.	pip2 –version
+#### 4.	pip2 –version
 11.	(pip should be installed because python is installed)
 12.	pip2 install ansible
 13.	ansible -- version
@@ -23,7 +23,7 @@
 5. cd ansible
 6. touch ansible.cfg hosts
 7. ansible –version (we should see the default dir structure)
-8. THEN CREATE USER ACROSS ALL SERVERS
+#### 5. THEN CREATE USER ACROSS ALL SERVERS
 9. user add ansadmin
 10. passwd ansadmin
 11. visudo (to add privileges for this user) (ansadmin     ALL=(ALL)         NOPASSWD:  ALL (:wq! -exit)
@@ -37,7 +37,7 @@
 19. ansible –version
 20. touch hosts
 21. cd (go back home)
-22. ESTABLISH HOSTS WITH YOUR NODES
+#### 6. ESTABLISH HOSTS WITH YOUR NODES
 23. ssh-keygen (enter enter)
 23.cd .ssh/
 24.COPY THE public key to the remote servers.
@@ -50,6 +50,6 @@
                      Inventory    =./hosts
                      host key checking= FALSE
 29. vi hosts (paste and close)
-30.
-31. CHECK CONNECTIVITY
-32. ansible all -m ping
+
+#### 7. CHECK CONNECTIVITY
+42. ansible all -m ping
