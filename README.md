@@ -28,7 +28,7 @@
 10. passwd ansadmin
 11. visudo (to add privileges for this user) (ansadmin     ALL=(ALL)         NOPASSWD:  ALL (:wq! -exit)
 12. vi /etc/ssh/sshd_config
-13. (uncomment ) PasswordAuthentication (and set to ) yes THEN systemctl restart sshd (or service restart)
+13. (uncomment ) PasswordAuthentication (and set to ) yes THEN systemctl restart sshd (or service sshd restart)
 14. SWITCH TO OUR USER
 15. sudo su ansadmin
 16. ansible –version( it will pick default )
