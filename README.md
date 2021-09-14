@@ -39,12 +39,17 @@
 21. cd (go back home)
 #### 6. ESTABLISH HOSTS WITH YOUR NODES
 22. ssh-keygen (enter enter)
-23.cd .ssh/
-24.COPY THE public key to the remote servers.
-25.ssh-copy-id 12.234.54.345
-26.DO THE SAME FOR ALL THE NODES
-27.cd my ansible_dev
-28.  copy the ips to the inventory hosts file.
+23. cd
+24.cd .ssh/
+
+25.COPY THE public key to the remote servers.
+
+26.ssh-copy-id 12.234.54.345 
+
+27.DO THE SAME FOR ALL THE NODES 
+
+28.cd my ansible_dev
+29.  copy the ips to the inventory hosts file.
  28b. vi ansible.cfg  
 28.(type) [defaults] vi
                      Inventory    =./hosts
